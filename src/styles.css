@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.text-right {
+  float: right;
+}
+.saveMenuItem {
+  display: none;
+}
+#closeIcon {
+  display: none;
+}
+ul.list-group i {
+  margin: 5px;
+}
+
+.ghost {
+  opacity: 0.3;
+}
+.chosen {
+  opacity: 1;
+  background: whitesmoke;
+}
+.dragHandle {
+  cursor: grab;
+}
+
+.dragging {
+}
+
+.grid-square {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: #fff;
+  border: solid 1px rgb(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 12px;
+}
